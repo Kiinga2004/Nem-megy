@@ -1,0 +1,177 @@
+/*-------------------------------------------TAG SELECTOR--------------------------------------------*/
+ body {
+    margin:0px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    overflow-x:hidden;
+
+}
+
+h1 {
+    margin-block-start: 0px;
+    font-family: 'Caveat', cursive;
+    margin:0 ;
+    font-size: 6.25em; /*16px = 100% = 1em*/
+    color: #26191b;
+}
+
+h2 {
+    
+    font-family: 'Arsenal', sans-serif;
+    text-shadow: 4px 4px 4px rgb(133, 133, 133);
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 2;
+    color: #26191b;
+}
+
+h3 {
+    color: #838383;
+}
+
+hr {
+    border-style: none;              
+    border-top-style: dotted;
+    border-color:#584153;
+    border-width: 8px;
+    height: 0;
+    width: 10%;
+
+}
+
+/*-------------------------------------------CLASS SELECTOR--------------------------------------------*/
+
+                                        /*KÉPEK A FELSŐ DIV-BEN*/
+
+.cloud {
+    width:133px;
+    height:100px;
+    position: relative;
+}
+
+.bird {
+    width: 100px;
+    height: 75px;
+    position: relative;
+}
+
+                                             /*DIVEK*/
+
+.felso{
+    background-color: #efd9d1;
+}
+
+.kozepso {
+    background-color: #fff8f5;
+}
+
+.also {
+    background-color: #584153;
+}
+                                                /*SKILL DIV*/
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill {
+    width: 25%;
+    float: left;
+    margin-right:30px ;
+}
+
+.Kinga {
+    height:200px;
+    width: auto;
+}
+
+.des {
+    width: 30%;
+    margin:auto;
+    line-height: 2;
+    font-family: 'arial', sans-serif;
+}
+
+                                              /* ALSÓ RÉSZ*/
+
+.also-link {
+    color: white;
+}
+
+.also-link:hover {
+    color: pink ;
+}
+
+.also-text1 {
+    color: #ad9d9d ;
+}
+
+.also-text2 {
+    color: #ad9d9d;
+}
+
+.also-copy {
+    color: #ad9d9d ;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #ad9d9d 5%, #997892 100%);
+	background-color:#ad9d9d;
+	border-radius:15px;
+	border:1px solid #a88a92;
+	display:inline-block;
+	cursor:pointer;
+	color:#3d3032;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 27px;
+	text-decoration:none;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #d9adad 5%, #fccbcb 100%);
+	background-color:#d9adad;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*-------------------------------------------ID SELECTOR--------------------------------------------*/
+
+#bird1{
+    right: 150px;
+    transform: scaleX(-1)
+}
+
+#bird2 {
+    bottom:200px;
+    left: 250px;
+}
+
+#cloud1 {
+    width: auto;
+    height: 150px;
+    left: 300px;
+}
+
+#cloud2 {
+    top: 30px;
+    right: 300px;
+}
+
+#ll {
+    float: right;
+    margin-left: 30px;
+}
+
+#hr1 {
+    margin-top: 50px;
+}
+
+#hr2 {
+    margin-bottom:50px;
+}
